@@ -154,18 +154,15 @@
 }
 
 .top-profile-photo img {
-  width: 100%;
-  height: 100%;
+  width: 80px !important;
+  height: 80px !important;
   border-radius: 50%;
   object-fit: cover;
-  box-shadow: var(--box-shadow);
   border: 2px solid white;
+  box-shadow: var(--box-shadow);
   transition: transform 0.3s ease;
 }
 
-.top-profile-photo img:hover {
-  transform: scale(1.05);
-}
  
 .navbar.scrolled {
     background-color: var(--light-color);
