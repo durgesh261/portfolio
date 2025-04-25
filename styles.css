@@ -144,6 +144,22 @@
     transition: var(--transition);
     padding: 2rem 0;
   }
+.profile-photo {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1001;
+}
+
+.profile-photo img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  object-fit: cover;
+  box-shadow: var(--box-shadow);
+}
+
   
   .navbar.scrolled {
     background-color: var(--light-color);
