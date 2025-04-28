@@ -144,27 +144,7 @@
     transition: var(--transition);
     padding: 2rem 0;
   }
-.profile-photo-hero {
-  margin-top: 2rem;
-  display: flex;
-  justify-content: center;
-}
 
-.profile-photo-hero img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid white;
-  box-shadow: var(--box-shadow);
-  transition: transform 0.3s ease;
-}
-
-.profile-photo-hero img:hover {
-  transform: scale(1.05);
-}
-
- 
 .navbar.scrolled {
     background-color: var(--light-color);
     box-shadow: var(--box-shadow);
