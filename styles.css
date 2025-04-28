@@ -144,23 +144,24 @@
     transition: var(--transition);
     padding: 2rem 0;
   }
-.top-profile-photo {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  width: 80px;
-  height: 80px;
-  z-index: 1100;
+.profile-photo-hero {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
-.top-profile-photo img {
-  width: 80px !important;
-  height: 80px !important;
+.profile-photo-hero img {
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid white;
+  border: 3px solid white;
   box-shadow: var(--box-shadow);
   transition: transform 0.3s ease;
+}
+
+.profile-photo-hero img:hover {
+  transform: scale(1.05);
 }
 
  
